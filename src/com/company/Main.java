@@ -9,9 +9,11 @@ public class Main {
         Main();
     }
 
+
     private static void Main() {
+
             int num = (int) (Math.random() * 100);
-            //System.out.println(num);
+            System.out.println("enter a number");
             Scanner input = new Scanner(System.in);
             int guess = input.nextInt();
 
